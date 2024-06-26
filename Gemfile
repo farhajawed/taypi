@@ -26,6 +26,10 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem "graphql"
+
+gem "graphiql-rails"
+
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 
@@ -61,6 +65,7 @@ group :development, :test do
   gem "erblint-github", require: false
   gem "standard"
   gem "rspec-rails", "~> 6.1.0"
+  gem "byebug"
 end
 
 group :development do
@@ -85,3 +90,4 @@ group :test do
   gem "shoulda-matchers", "~> 6.0"
   gem "webmock"
 end
+gem "graphiql-rails", group: :development
