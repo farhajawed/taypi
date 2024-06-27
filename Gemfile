@@ -91,3 +91,4 @@ group :test do
   gem "webmock"
 end
 gem "graphiql-rails", group: :development
+gem 'rack-cors'
