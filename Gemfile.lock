@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: https://github.com/thoughtbot/capybara_accessibility_audit.git
-  revision: 131bbb65c60519dbe804c031487b0dc427c15195
+  revision: ae7785f3523f43236efefed1189f16a30a0fcfbc
   specs:
     capybara_accessibility_audit (0.2.0)
       axe-core-api
@@ -190,7 +190,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.7.2)
-    irb (1.13.2)
+    irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.12.0)
@@ -211,7 +211,7 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    minitest (5.24.0)
+    minitest (5.24.1)
     msgpack (1.7.2)
     mutex_m (0.2.0)
     net-imap (0.4.14)
@@ -241,7 +241,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.0)
-    rack (3.1.4)
+    rack (3.1.7)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-session (2.0.0)
