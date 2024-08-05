@@ -172,12 +172,14 @@ GEM
     factory_bot_rails (6.4.3)
       factory_bot (~> 6.4)
       railties (>= 5.0.0)
+    fiber-storage (0.1.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     graphiql-rails (1.10.0)
       railties
-    graphql (2.3.6)
+    graphql (2.3.12)
       base64
+      fiber-storage
     hashdiff (1.1.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
